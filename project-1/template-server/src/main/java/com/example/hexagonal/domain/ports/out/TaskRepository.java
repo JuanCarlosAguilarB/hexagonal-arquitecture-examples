@@ -6,7 +6,7 @@ import java.util.Optional;
 
 public interface TaskRepository {
 
-    public void deleteTask(Long id);
+    public void delete(Long id);
     public Task save(Task task);
     public Optional<Task> getTaskById(Long id);
     public Optional<Task> updateTask(Task task);
